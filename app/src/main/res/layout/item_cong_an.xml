@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:weightSum="10"
+        android:background="@drawable/bg_radius_15"
+        android:backgroundTint="#fff">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/img_default"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/ten_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nguyễn Văn A"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/chucvu_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chức vụ: Đại tá"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/congtac_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nơi công tác: Đại tá"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:id="@+id/quocgia_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quốc gia: Việt Nam"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="8dp"/>
+
+            <RatingBar
+                android:id="@+id/sao_ratingbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/ratingBarStyleSmall"
+                android:isIndicator="true"
+                android:numStars="6"
+                android:progressTint="@color/colorPrimary"
+                android:rating="2"
+                android:secondaryProgressTint="@color/colorPrimary"
+                android:stepSize="1"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
