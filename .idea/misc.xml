@@ -6,9 +6,16 @@
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/drawable/bg_gradient_horizontal.xml" value="0.174" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/drawable/bg_radius_15.xml" value="0.174" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/drawable/ic_logout.xml" value="0.174" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/drawable/ic_plus.xml" value="0.1825" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/drawable/ic_ware.xml" value="0.174" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/activity_list_cayxanh.xml" value="0.2222222222222222" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/activity_list_cong_an.xml" value="0.25" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/activity_sign_up.xml" value="0.2222222222222222" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/dialog_add.xml" value="0.2222222222222222" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/dialog_detail.xml" value="0.2222222222222222" />
+        <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/item_cayxanh.xml" value="0.2222222222222222" />
         <entry key="..\:/TU/HOC TAP/122/Android/KiemTra/app/src/main/res/layout/item_cong_an.xml" value="0.24895833333333334" />
       </map>
     </option>

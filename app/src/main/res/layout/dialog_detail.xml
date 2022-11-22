@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/bg_radius_15"
+    android:backgroundTint="#f8f8f8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="THÔNG TIN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/tenthuonggoi_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thường gọi"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/tenkhoahoc_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khoa học"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/dactinh_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đặc tính"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/maula_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Màu lá"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/linkhinhanh_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Link hình ảnh trên intenet"
+        android:textSize="20dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/xoa_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xóa"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_gradient_horizontal"/>
+
+        <Button
+            android:id="@+id/huy_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/bg_gradient_horizontal"/>
+
+        <Button
+            android:id="@+id/sua_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sửa"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/bg_gradient_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
