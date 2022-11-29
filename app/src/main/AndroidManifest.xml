@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dmt.dangtus.kiemtra">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,13 +16,10 @@
         android:theme="@style/Theme.KiemTra"
         tools:targetApi="31">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ListCayXanhActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
+            android:name=".ListThifActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
